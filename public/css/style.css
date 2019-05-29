@@ -1,0 +1,15 @@
+body,html{
+     height: 100%;
+     font-family: 'Audiowide';
+}
+.auth-container{
+     width: 100%;
+     margin: 0 auto;
+     height: 100%;
+     background: #31316b;
+     color: #89f4f9;
+}
+.form-container{
+     padding:50px 10px  30px  10px;
+     border: #89f4f9 1px solid;
+}
