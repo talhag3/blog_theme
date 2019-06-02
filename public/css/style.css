@@ -6,10 +6,34 @@ body,html{
      width: 100%;
      margin: 0 auto;
      height: 100%;
-     background: #31316b;
+     background: rgb(137,244,249);
+background: linear-gradient(90deg, rgba(137,244,249,1) 13%, rgba(91,93,129,1) 53%, rgba(37,37,88,1) 69%);
      color: #89f4f9;
 }
 .form-container{
-     padding:50px 10px  30px  10px;
+     padding: 50px 10px 30px 10px;
+     border-bottom: 3px solid #89f4f9;
+     border-right: 3px solid #89f4f9;
+     border-top: 1px solid #89f4f9;
+     border-left: 1px solid #89f4f9;
+     border-radius: 30px;
+     background-color: #6f9cb3;
+     border-color: #6c95ad;
+}
+.login-form button{
+    border-radius: 30px;
+    background-color: #3e3f6b;
+    border: #89f4f9 1px solid;
+    border-bottom: 3px solid #89f4f9;
+}
+.login-form button:hover{
+     border-radius: 30px;  
+     background-color: #252558;   
      border: #89f4f9 1px solid;
+}
+
+.login-form input{
+     border-radius: 30px;
+     border: 1px solid #89f4f9;
+     background: #89f4f9;
 }
